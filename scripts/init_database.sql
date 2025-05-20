@@ -1,13 +1,29 @@
-/*CREATE DATABASE DataWarehouse;
 /*
-===================================================
-Create Database
-===================================================
+=================================================
+Create Database and Schemas
+
+
 Script Purpose:
-	This script creates a new database, 'dataWarehouse', after checking if it  already exists.
-    If the database exists, an error message will come up.
+	This script creates new databses. Additionally, the script sets up three schemas within the database: 'bronze', 'silver', and 'gold'.
+=================================================
 */
 
+USE master;
+GO
 
-Use DataWarehouse;
+-- Create Database 'DataWarehouse'
+
+CREATE DATABASE DataWarehouse;
+
+USE DataWarehouse;
+
+-- Create Schemas
+
+CREATE SCHEMA bronze;
+GO
+
+CREATE SCHEMA silver;
+GO
+
+CREATE SCHEMA gold;
 
