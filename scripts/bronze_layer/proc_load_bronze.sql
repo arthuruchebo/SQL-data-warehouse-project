@@ -1,4 +1,3 @@
-EXEC bronze.load_bronze
 /*
 ==========================================================
 Stored Procedure: Load Bronze layer (Source -> Bronze)
