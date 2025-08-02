@@ -5,7 +5,7 @@ DDL Script: Create silver Tables
 Script Purpose:
 	This script crates table in the silver schema, dropping existing tables if they already exists.
 	Run this script to redifine the DDL structure of the 'silver' tables
-  dwh_create_date DATETIME2 DEFAULT GETDATE() - added to get the time & date of execution
+  	Extra metadata column >> dwh_create_date DATETIME2 DEFAULT GETDATE() - added to get the time & date of execution
 =========================================================
 */
 
